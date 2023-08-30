@@ -3,11 +3,10 @@ export interface LinkItemProps {
 	title: string;
 	path: string;
 	imageUrl: string;
-
+	delay: number;
+	distance: number;
 	recent: Recent;
 }
-
-
 
 type Recent = {
 	status: boolean;
