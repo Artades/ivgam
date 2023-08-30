@@ -49,7 +49,7 @@ const LinkItem: FC<LinkItemProps> = ({
 					<div className="w-full h-full flex flex-col items-center justify-between gap-5">
 						<Image
 							src={imageUrl}
-							alt="Social Media"
+							alt="Socia Media"
 							width={50}
 							height={50}
 							className="w-[50px] h-[50px]"
