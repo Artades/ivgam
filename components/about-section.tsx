@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import Link from "next/link";
 import Image from "next/image";
 import { Button } from './ui/button';
 import AboutModal from './about-modal';
@@ -24,12 +25,16 @@ const AboutSection = () => {
 						<h1 className="text-3xl text-white font-semibold">Artyom Galay</h1>
 						<p className="text-muted-foreground text-md">Developer</p>
 						<div className="flex gap-3 flex-row items-center">
-							<Button variant={"default"} className="bg-indigo-600 ">
-								E-Mail
-							</Button>
-							<Button variant={"default"} className="bg-rose-600">
-								Donate
-							</Button>
+							<Link href="mailto:artemijgalaj@gmail.com" target="_blank">
+								<Button variant={"default"} className="bg-indigo-600 ">
+									E-Mail
+								</Button>
+							</Link>
+							<Link href="https://ko-fi.com/ivgam">
+								<Button variant={"default"} className="bg-rose-600">
+									Donate
+								</Button>
+							</Link>
 						</div>
 					</div>
 				</div>
