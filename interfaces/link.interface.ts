@@ -9,6 +9,7 @@ export interface LinkItemProps {
 }
 
 type Recent = {
+	animationDistance: number;
 	status: boolean;
 	color: string;
 };
